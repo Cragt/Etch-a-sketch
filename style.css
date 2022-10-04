@@ -1,14 +1,5 @@
-#container {
-  width: 700px;
-  height: 700px;
-  margin: 20px;
+.board {
+  width: 500px;
+  height: 500px;
   display: grid;
-  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-  grid-gap: 10px;
-  background-color: blueviolet;
-}
-
-#pixel {
-    background-color: red;
-    width: auto;
 }
